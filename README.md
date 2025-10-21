@@ -196,8 +196,7 @@ Shows:
 ✅ Full README Documentation  
 ✅ Working Backend + Basic Frontend  
 ✅ Postman Tested APIs  
-✅ Demo Video Attached  
-
+✅ Demo Video Attached
 ---
 
 ## 🧑‍💻 Developer Notes
