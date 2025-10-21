@@ -1,0 +1,54 @@
+{
+  "name": "reachinbox-backend",
+  "version": "1.0.0",
+  "description": "Backend for ReachInbox Onebox - AI-powered email aggregator",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "docker:up": "cd ../docker && docker-compose up -d",
+    "docker:down": "cd ../docker && docker-compose down",
+    "docker:logs": "cd ../docker && docker-compose logs -f",
+    "test": "echo \"Tests will be added later\"",
+    "setup:vector": "ts-node scripts/setup-vector-db.ts"
+  },
+  "keywords": [
+    "email",
+    "imap",
+    "ai",
+    "elasticsearch"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.17.14",
+    "@google/generative-ai": "^0.21.0",
+    "@qdrant/js-client-rest": "^1.11.0",
+    "@slack/webhook": "^7.0.6",
+    "@types/imap": "^0.8.42",
+    "axios": "^1.12.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "imap": "^0.8.19",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.7.5",
+    "node-imap": "^0.9.6",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^22.18.11",
+    "@types/node-imap": "^0.9.1",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
