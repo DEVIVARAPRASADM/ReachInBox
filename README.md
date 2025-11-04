@@ -1,9 +1,6 @@
 # 📩 ReachInBox – AI-Powered Onebox Email Aggregator
 
-### 🚀 Assignment – Associate Backend Engineer | ReachInbox
-
 > **Built by:** Devivaraprasad Mullaguri  
-> **Duration:** 48 Hours Challenge  
 > **Tech Stack:** TypeScript • Node.js • Express.js • IMAP • Elasticsearch • Gemini AI API • Slack Webhook • React.js
 
 ---
@@ -11,8 +8,6 @@
 ## 🧠 Project Overview
 
 **ReachInBox** is a feature-rich email onebox system that synchronizes multiple IMAP email accounts in real time, categorizes messages using AI, and integrates Slack and webhook notifications for lead tracking automation.
-
-The project is inspired by the **ReachInbox platform** and demonstrates scalable backend engineering, AI integration, and a minimal frontend to visualize email data.
 
 ---
 
