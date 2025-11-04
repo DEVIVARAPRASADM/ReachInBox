@@ -173,19 +173,7 @@ The frontend (in `/frontend`) provides:
 Built with:
 - React + TypeScript  
 - Material UI  
-- Axios  
-
----
-
-## 🎥 Demo Video
-
-📺 **Demo Video:** [Link will be added soon]  
-> *(Duration: under 5 minutes)*  
-Shows:
-- Real-time email sync  
-- Elasticsearch search  
-- Categorization + Slack notifications  
-- Webhook trigger demo  
+- Axios 
 
 ---
 
